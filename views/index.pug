@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+      include ../static/phone.css
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/logo.jpg", alt="logo")
+          | MDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Contact us]
+    section#introsection
+      div Welcome to Amrit's dance acedmy
+      div.small Eat Sleep Dance Repeat
+    section#ourmission
+      h2 Our mission  
+      div.card 
+        h3 Dance perfection
+        div.card-box
+          div.card-img
+            img(src="/static/dance3.jpg", alt="Dance Perfection")
+          div.card-content
+            p This is the best dance acedmy.    
+      div.card 
+        h3 Dance the way you like
+        div.card-box
+          div.card-img
+            img(src="/static/dance2.jpg", alt="Dance Perfection")
+          div.card-content
+            p This is the best dance acedmy.    
+      div.card 
+        h3 Expert Teaching   
+        div.card-box
+          div.card-img
+            img(src="/static/dance1.jpg", alt="Dance Perfection")
+          div.card-content
+            p This is the best dance acedmy.    
+    section#sponsersection
+      h2 Our Sponsers
+      div.sponser
+        img(src="/static/logo1.jpg", alt="")
+      div.sponser
+        img(src="/static/logo2.jpg", alt="")
+      div.sponser
+        img(src="/static/logo3.jpg", alt="")
+      div.sponser
+        img(src="/static/logo4.jpg", alt="")
+      div.sponser
+        img(src="/static/logo5.jpg", alt="")  
+    footer#footer
+      | copyright © 2020 amritdanceacedmy.com All right reserved       
+    script
+      include ../static/index.js
