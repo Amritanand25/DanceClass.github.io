@@ -1,0 +1,55 @@
+extends base.pug
+
+block scripts
+    script(src=('/static/index.js'))
+block style
+    style
+        include ../static/style.css
+        include ../static/about.css
+        include ../static/phone.css
+        //- @media(max-width: 300px){
+        //-   #navbar{
+        //-       flex-direction: column;
+        //-   }
+        //- }
+        //- <link rel="stylesheet" href="phone.css" media="screen and (max-width: 1432px)">   
+block content
+    h1 About Dance
+    div.contain
+        div.container.cont   
+            div.text   
+                div.clas
+                    h4 How does it work?      
+                div.container1 
+                    div.images 
+                        img(src="static/step1.jpg", alt="1") 
+                    div.textpara 
+                        | Decide which dance style you'd like to try.  Easy.    
+                div.container1 
+                    div.images 
+                        img(src="static/step2.jpg", alt="1") 
+                    div.textpara 
+                        | Now, just have a go.  Take one of our classes (either online or on DVD) and dance along at home where nobody will ever see you.  It's bliss.
+                div.container1 
+                    div.images 
+                        img(src="static/step3.jpg", alt="1") 
+                    div.textpara 
+                        | Finally, read our guide to learning that style.  Each has all the info you could ever need – explanations of the basic steps, what dancewear is ideal for each type of dance, what 'real life' classes are like and endless tips on how to improve your experience of learning to dance.            
+        div.areaofpara 
+                p.paragraph 
+                    | But that's not all... There's lots you can get out of your introductory lesson.
+                br
+                p.paragraph
+                    | First, you get to join in with a genuine beginner's class.  Most dance / workout DVDs will show you a bunch of super-fit experienced dancers doing the moves, but it's far more inspirational if you can learn with a group of genuine peers.
+                br
+                p.paragraph
+                    | Second, it shows you inside a real dance lesson.  This way you get to see how a good dance teacher instructs their pupils.  You'll see a warm, approachable teacher, steps broken down, explained clearly, with plenty of time to practice each one before moving on to the next, a fun, calm atmosphere where pupils don't compete with one another, no negative reinforcement, only positive feedback... you get the picture.    
+                br
+                p.paragraph
+                    | Third, if you’ve signed up for local classes (or plan to) you can use one of our intro classes to give you lots of really useful tips and techniques that will perfectly prepare you for your lessons – you’ll be ahead of many of your class-mates and that’s going to feel great.
+                br
+                p.paragraph
+                    | Last, of course, you can use your class on its own, every time you need an at-home workout, or if you do sign up for local lessons, use it as your practice session between classes.
+                br
+                p.paragraph
+                    | So our approach doesn't just teach you dance steps, it teaches you all about the process of learning to dance, and hopefully inspires a love of dance that'll last a lifetime.        

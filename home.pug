@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts
+    script(src=('/static/index.js'))
+block style
+  style
+    include ../static/style.css
+    include ../static/phone.css
+    //- link(rel="stylesheet", href="static/phone.css" media="screen and (max-width: 1432px") 
+block content
+    section#introsection
+      div Welcome to Amrit's Dance Acedmy
+      div.small Eat Sleep Dance Repeat
+    section#ourmission
+      h2 Our mission  
+      div.card 
+        h3 Dance perfection
+        div.card-box
+          div.card-img
+            img(src="/static/dance3.jpg", alt="Dance Perfection")
+          div.card-content
+            p We are passionate about dance the personal growth of all our students.    
+      div.card 
+        h3 Dance the way you like
+        div.card-box
+          div.card-img
+            img(src="/static/dance2.jpg", alt="Dance Perfection")
+          div.card-content
+            p The job of feets is walking, but their hobby is dancing.
+      div.card 
+        h3 Expert Teaching   
+        div.card-box
+          div.card-img
+            img(src="/static/dance1.jpg", alt="Dance Perfection") 
+          div.card-content
+            p Every day brings a chance for you to draw in a breath, kick off your shoes, and dance.     
+    section#sponsersection
+      h2 Our Sponsers
+      div.sponser
+        img(src="/static/logo1.jpg", alt="")
+      div.sponser
+        img(src="/static/logo2.jpg", alt="")
+      div.sponser
+        img(src="/static/logo3.jpg", alt="")
+      div.sponser
+        img(src="/static/logo4.jpg", alt="")
+      div.sponser
+        img(src="/static/logo5.jpg", alt="") 
+    
